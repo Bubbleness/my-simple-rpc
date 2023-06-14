@@ -1,7 +1,7 @@
 package mucheng.practice.rpc.remoting.dto;
 
 import lombok.*;
-import mucheng.rpc.framework.enums.RpcResponseCodeEnum;
+import mucheng.practice.rpc.enums.RpcResponseCodeEnum;
 
 import java.io.Serializable;
 
