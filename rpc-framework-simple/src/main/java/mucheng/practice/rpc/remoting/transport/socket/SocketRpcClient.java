@@ -1,8 +1,8 @@
 package mucheng.practice.rpc.remoting.transport.socket;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import mucheng.practice.rpc.registry.ServiceDiscovery;
 import mucheng.practice.rpc.remoting.dto.MyRpcRequest;
 import mucheng.practice.rpc.remoting.transport.RpcRequestTransport;
 
@@ -12,11 +12,10 @@ import mucheng.practice.rpc.remoting.transport.RpcRequestTransport;
  * @description 以Socket的形式发送Rpc请求
  */
 @AllArgsConstructor
-@NoArgsConstructor
 @Slf4j
 public class SocketRpcClient implements RpcRequestTransport {
 
-//    private final ServiceDiscovery serviceDiscovery;
+    private final ServiceDiscovery serviceDiscovery;
 
     @Override
     public Object sendRpcRequest(MyRpcRequest rpcRequest) {
