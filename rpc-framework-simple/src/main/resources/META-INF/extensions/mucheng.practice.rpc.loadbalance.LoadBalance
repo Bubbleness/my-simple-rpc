@@ -1,0 +1,1 @@
+loadBalance=mucheng.practice.rpc.loadbalance.loadbalancer.ConsistentHashLoadBalance
