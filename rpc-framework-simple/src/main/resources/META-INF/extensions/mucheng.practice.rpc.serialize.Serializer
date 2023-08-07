@@ -1,0 +1,3 @@
+kyro=mucheng.practice.rpc.serialize.kyro.KryoSerializer
+protostuff=mucheng.practice.rpc.serialize.protostuff.ProtostuffSerializer
+hessian=mucheng.practice.rpc.serialize.hessian.HessianSerializer

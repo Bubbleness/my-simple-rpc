@@ -1,8 +1,9 @@
 package mucheng.practice.rpc;
 
 /**
- * @author shuiyu
- * @date 2023/06/14
+ * @author mucheng
+ * @date 2023/08/02 11:37:20
+ * @description 主函数
  */
 public class Main {
     public static void main(String[] args) {
